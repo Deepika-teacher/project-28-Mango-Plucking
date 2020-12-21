@@ -8,7 +8,7 @@ class Stone{
         }
         this.body=Bodies.circle(x,y,radius/2,options);
         World.add(world,this.body);
-        this.image=loadImage("images/plucking mangoes/stone.png");
+        this.image=loadImage("stone.png");
         this.radius=radius;
     }
 
